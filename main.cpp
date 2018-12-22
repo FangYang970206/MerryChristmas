@@ -23,14 +23,6 @@ void playSound()
 }
 int main()
 {	
-	string name;
-	cout << "请输入你的名字(输完按回车)：";
-	cin >> name;
-	if (name != "李春晓") {
-		cout << "这个程序只能通过李春晓的名字进行解锁，其他人的名字没用"<< endl;
-		Sleep(3000);
-		return 0;
-	}
 	system("Title ");
 	initgraph(1000, 590);
 	playSound();
